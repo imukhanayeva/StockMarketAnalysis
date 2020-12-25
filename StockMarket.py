@@ -1,15 +1,11 @@
 !python3 -m pip install yahoo_fin
 !python3 -m pip install matplotlib
-
-
-
 !python3 -m pip install requests_html
 
 
 
 
 import pandas as pd
-from yahoo_fin import stock_info
 import plotly
 import plotly.offline as py
 import matplotlib.pyplot as plt
